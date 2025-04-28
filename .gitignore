@@ -1,0 +1,9 @@
+log
+node_modules
+.env
+server/node_modules
+server/uploads
+client/React_Vite/Testing/fe/node_modules
+docker-compose.yml
+DockerFile
+nginx/default.conf

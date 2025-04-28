@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "67149b1ef4d3f27fdace4d64"
+  },
+  "username": "palel",
+  "email": "farrelganen@gmail.com",
+  "password": "$2a$10$2M3E6ZqusA9ZWQ4Hd9UOQ.s73EltjXEk1ESdxN78KEcHS4l8YEOUq",
+  "followers": 0,
+  "following": 0,
+  "createdAt": {
+    "$date": "2024-10-20T05:54:38.870Z"
+  },
+  "__v": 0,
+  "recipesCreated": [
+    {
+      "$oid": "672614d5725aff8cfb88b64a"
+    },
+    {
+      "$oid": "672616aa725aff8cfb88b651"
+    },
+    {
+      "$oid": "67261997725aff8cfb88b65d"
+    },
+    {
+      "$oid": "67261aa4725aff8cfb88b665"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67152094737990b019949331"
+  },
+  "username": "Risu_Cantik",
+  "email": "realcharisa@gmail.com",
+  "password": "$2a$10$VgRMU52HYEQDwJEPi/1ZSO/xvWc.1Sc4sTEE8Hpu8XzdAypjUrfuS",
+  "followers": 0,
+  "following": 0,
+  "createdAt": {
+    "$date": "2024-10-20T15:24:04.583Z"
+  },
+  "__v": 0,
+  "recipesCreated": [
+    {
+      "$oid": "67261d44725aff8cfb88b66e"
+    },
+    {
+      "$oid": "67261ee0725aff8cfb88b677"
+    }
+  ]
+}]

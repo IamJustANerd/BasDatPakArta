@@ -1,0 +1,553 @@
+[{
+  "_id": {
+    "$oid": "6714ae51155a200aa51293ca"
+  },
+  "title": "puding coklat pak hambali",
+  "ingredients": [
+    "7 gram agar agar plain",
+    "Sedikit nutrijell plain",
+    "50 gram gula pasir (sesuai selera)",
+    "800 ml susu full cream",
+    "35 gr dark chocolate compound",
+    "Sedikit garam"
+  ],
+  "instructions": [
+    "Campurkan semua bahan kedalam panci",
+    "Masak hingga mendidih sambil diaduk supaya tidak gosong",
+    "Setelah mendidih matikan api",
+    "Hilangkan gelembung dan uap panas dari pudding",
+    "Tuang pudding ke cetakan",
+    "Dinginkan dalam suhu ruangan sebelum didinginkan menggunakan kulkas",
+    "Pudding siap disajikan"
+  ],
+  "timeToCreate": 0,
+  "difficulty": 0,
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStOoGXLUHhSXQ4pA1YsCygnuAwAKBhe2RbJA&s",
+  "createdBy": {
+    "$oid": "67149b1ef4d3f27fdace4d64"
+  },
+  "createdAt": {
+    "$date": "2024-10-20T07:16:33.878Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67151db8f58c1d24fe5bb45b"
+  },
+  "title": "hah",
+  "ingredients": [
+    "risu cantikkkkk sekaliii",
+    "risu cantikkkkk sekaliii2",
+    "risu cantikkkkk sekaliii3"
+  ],
+  "instructions": [
+    "risu cantikkkkk sekaliii11",
+    "risu cantikkkkk sekaliii22",
+    "risu cantikkkkk sekaliii33"
+  ],
+  "timeToCreate": 0,
+  "difficulty": 0,
+  "image": "https://via.placeholder.com/150",
+  "createdBy": {
+    "$oid": "67149b1ef4d3f27fdace4d64"
+  },
+  "createdAt": {
+    "$date": "2024-10-20T15:11:52.901Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67152313737990b019949334"
+  },
+  "title": "eskim ucing",
+  "ingredients": [
+    "ucing oren",
+    "ucing putih",
+    "conky boy"
+  ],
+  "instructions": [
+    "kasi makan conky boy",
+    "pat pat conky boy",
+    "jangan biarkan conky boy masuk ke sekre ichiro",
+    "conky lutu"
+  ],
+  "timeToCreate": 32,
+  "difficulty": 2,
+  "image": "https://via.placeholder.com/150",
+  "createdBy": {
+    "$oid": "67152094737990b019949331"
+  },
+  "createdAt": {
+    "$date": "2024-10-20T15:34:43.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6715f890aa55b115b9ef5734"
+  },
+  "title": "ayam pak bas",
+  "ingredients": [
+    "sebastian",
+    "adirian",
+    "adi",
+    "nugrahaa"
+  ],
+  "instructions": [
+    "basssss",
+    "ambassiiinnnn",
+    "ambatukamm"
+  ],
+  "timeToCreate": 69,
+  "difficulty": 2,
+  "image": "https://via.placeholder.com/150",
+  "createdBy": {
+    "$oid": "67149b1ef4d3f27fdace4d64"
+  },
+  "createdAt": {
+    "$date": "2024-10-21T06:45:36.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672614d5725aff8cfb88b64a"
+  },
+  "title": "Kuker brownies 7 bahan",
+  "description": "Source : Channel youtube Vinastar Tadinya belom mau terbitin resep, tapi pas dihitung, ternyata terdiri dari 7 bahan, dan baca wa group, mengingatkan posbar bertema 7, jadi saya coba aja memasukan resep ini, meski ga ikut ke dapur Cookpad. Moga berkenan 🙏",
+  "ingredients": [
+    "55 gram telur",
+    "125 gram gula pasir di blender",
+    "1/2 sdt garam",
+    "1/2 sdt vanila",
+    "50 gram minyak",
+    "30 gram coklat bubuk",
+    "trimit secukupnya"
+  ],
+  "instructions": [
+    {
+      "step": "Aduk rata minyak dan coklat bubuk, sisihkan. Mixer telur dan gula, lalu masukkan garam dan vanila, mixer kembali. Masukkan campuran minyak, mixer sebentar. Masukkan terigu, mixer lagi sebentar.",
+      "time": 5,
+      "_id": {
+        "$oid": "672614d5725aff8cfb88b64b"
+      }
+    },
+    {
+      "step": "Tuang adonan ke piping bag. Isikan kedalam paper cup. Beri trimit di atasnya, Panggang sampai matang. Biarkan dingin.",
+      "time": 84,
+      "_id": {
+        "$oid": "672614d5725aff8cfb88b64c"
+      }
+    },
+    {
+      "step": "Bisa dinikmati langsung, atau jadi isian toples",
+      "time": 1,
+      "_id": {
+        "$oid": "672614d5725aff8cfb88b64d"
+      }
+    }
+  ],
+  "timeToCreate": 90,
+  "difficulty": 1,
+  "servings": 2,
+  "image": "https://img-global.cpcdn.com/recipes/b227c5d2e4937fc0/1360x964cq70/kuker-brownies-7-bahan-foto-resep-utama.webp",
+  "likes": 0,
+  "createdBy": {
+    "$oid": "67149b1ef4d3f27fdace4d64"
+  },
+  "comments": [],
+  "createdAt": {
+    "$date": "2024-11-02T12:02:29.826Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672616aa725aff8cfb88b651"
+  },
+  "title": "Rawon surabaya",
+  "description": "Lahir dan besar di surabaya, sedari kecil menu ini sering tersaji di meja makan. Menu favorit keluarga. Bahkan sekarang menjadi menu favorit anak2. Di surabaya pun ada satu warung rawon legendaris, rawon setan namanya. Disebut begitu karena bukanya dini hari, persis seperti jam keluarnya para setan. Dan selalu ramai pembeli. Memang seenak itu sih ya. Apalagi makannya di tambah pakai tempe goreng, telur asin, sambal, plus kerupuk udang. Duh enaaaak..",
+  "ingredients": [
+    "500 gr daging sapi, potong2 ukuran 3x3",
+    "2 batang daun bawang, rajang halus",
+    "1,5 L air",
+    "Minyak untuk menumis",
+    "6 siung bawang merah",
+    "4 siung bawang putih",
+    "6 buah kemiri sangrai",
+    "100 gr kluwek (berat isinya saja)",
+    "2 cm kencur",
+    "2 cm kunyit",
+    "2 cm jahe",
+    "3 cabe merah besar",
+    "1/2 sdm terasi bakar",
+    "1 sdt merica bubuk",
+    "2 sdt ketumbar bubuk",
+    "3 cm lengkuas, memarkan",
+    "2 batang serai memarkan",
+    "4 lembar daun salam",
+    "3 lembar daun jeruk",
+    "3 sdm air asam jawa",
+    "1 sdm gula merah",
+    "1 sdm gula pasir",
+    "2 sdt garam",
+    "Tauge pendek",
+    "Tempe goreng",
+    "Telur asin",
+    "Kerupuk udang",
+    "Bahan sambal terasi",
+    "2 buah cabe merah besar",
+    "10 buah cabe rawit merah",
+    "1 sdt terasi bakar",
+    "1/2 sdt garam"
+  ],
+  "instructions": [
+    {
+      "step": "Potong dadu daging sapi, atau potong sesuai selera",
+      "time": 30,
+      "_id": {
+        "$oid": "672616aa725aff8cfb88b652"
+      }
+    },
+    {
+      "step": "Siapkan panci. Masukkan air, masak hingga air mendidih. Masukkan daging, Rebus daging sapi dg metode 5:30:7. Rebus di air mendidih selama 5 menit dg api besar. Lalu matikan kompor, tutup panci dan diamkan 30 menit. Rebus kembali selama 7 menit.",
+      "time": 37,
+      "_id": {
+        "$oid": "672616aa725aff8cfb88b653"
+      }
+    },
+    {
+      "step": "Siapkan ulekkan, uleg semua bumbu2 halus.",
+      "time": 5,
+      "_id": {
+        "$oid": "672616aa725aff8cfb88b654"
+      }
+    },
+    {
+      "step": "Tumis bumbu halus hingga harum. Tambahkan sereh, daun jeruk, daun salam, laos. Masak hingga layu dan bumbu benar2 matang. Masukkan daging sapi yg sudah direbus dan daun bawang, aduk hingga tercampur rata.",
+      "_id": {
+        "$oid": "672616aa725aff8cfb88b655"
+      }
+    },
+    {
+      "step": "Tambahkan air asam jawa, gula merah dan sedikit air, masak hingga bumbu meresap.",
+      "time": 15,
+      "_id": {
+        "$oid": "672616aa725aff8cfb88b656"
+      }
+    },
+    {
+      "step": "Tuang ke dalam air rebusan daging. Tambahkan gula dan garam. Koreksi rasa, tambahkan jika kurang.",
+      "time": 1,
+      "_id": {
+        "$oid": "672616aa725aff8cfb88b657"
+      }
+    },
+    {
+      "step": "Uleg semua bahan hingga halus",
+      "time": 5,
+      "_id": {
+        "$oid": "672616aa725aff8cfb88b658"
+      }
+    },
+    {
+      "step": "Sajikan rawon dg telur asin, tempe goreng, taoge pendek, kerupuk udang.",
+      "time": 1,
+      "_id": {
+        "$oid": "672616aa725aff8cfb88b659"
+      }
+    }
+  ],
+  "timeToCreate": 60,
+  "difficulty": 3,
+  "servings": 5,
+  "image": "https://img-global.cpcdn.com/recipes/7ebaf3b352a37175/1360x964cq70/rawon-surabaya-foto-resep-utama.webp",
+  "likes": 0,
+  "createdBy": {
+    "$oid": "67149b1ef4d3f27fdace4d64"
+  },
+  "comments": [],
+  "createdAt": {
+    "$date": "2024-11-02T12:10:18.380Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67261997725aff8cfb88b65d"
+  },
+  "title": "Mie ayam jamur + pangsit rebus",
+  "description": "",
+  "ingredients": [
+    "300 gr dada ayam, potong dadu kecil",
+    "100 gr jamur kancing, potong",
+    "6 siung bw putih, cacah halus",
+    "1 btg daun bawang, iris",
+    "3-4 sdm kecap manis",
+    "2 sdm saos tiram",
+    "2 sdm minyak wijen",
+    "1 sdm kecap asin",
+    "2 sdm air larutan maizena",
+    "secukupnya Air",
+    "1 sdt lada",
+    "1 sdt kaldu bubuk",
+    "secukupnya Garam, gula",
+    "secukupnya Kulit pangsit",
+    "250 gr daging ayam giling",
+    "2 sdm bw putih goreng",
+    "1 putih telur",
+    "1 sdm tapioka",
+    "2 sdm saos tiram",
+    "1 sdm minyak wijen",
+    "1 batang daun bawang, iris halus",
+    "1 sdt lada",
+    "1/2 sdt kaldu bubuk, garam secukupnya",
+    "Sawi rebus",
+    "Baso, keripik pangsit pangsit",
+    "Sambel rawit rebus",
+    "Bw merah goreng"
+  ],
+  "instructions": [
+    {
+      "step": "Panaskan minyak secukupnya, tumis bw putih hingga wangi, masukkan ayam, beri air secukupnya, aduk. Masak hingga ayam matang, lalu masukkan jamur. Beri sisa bahan, koreksi rasa. Setelah jamur matang, tuang larutan maizena dan daun bawang. Aduk. Masak hingga agak mengental",
+      "time": 10,
+      "_id": {
+        "$oid": "67261997725aff8cfb88b65e"
+      }
+    },
+    {
+      "step": "Aduk semua bahan jadi satu, ambil sedikit adonan, rebus utk koreksi rasa. Ambil selembat kulit pangsit, beri isian, lipat (lihat gambar cara melipat). Rebus pangsit hingga matang, angkat. Sisihkan. Kuah kaldu : rebus tulang ayam, tambahkan sejempol jahe + 3 siung bw putih geprek yg sdh digoreng, beri lada, garam. Minyak ayam : goreng kuoit ayam + bw putih goreng gn minyak secukupnya, masak hinhga kukit ayam mengeluarkan minyak",
+      "time": 15,
+      "_id": {
+        "$oid": "67261997725aff8cfb88b65f"
+      }
+    },
+    {
+      "step": "Siapkan ulekkan, uleg semua bumbu2 halus.",
+      "time": 5,
+      "_id": {
+        "$oid": "67261997725aff8cfb88b660"
+      }
+    },
+    {
+      "step": "Rebus mie telur, tiriskan. Dalam mangkok beri 1 sdm minyak ayam, 1 sdm kecap ikan, 1 sdt minyak wijen, masukkan mie, aduk. Beri topping dan pelengkap lain.",
+      "_id": {
+        "$oid": "67261997725aff8cfb88b661"
+      }
+    }
+  ],
+  "timeToCreate": 30,
+  "difficulty": 2,
+  "servings": 2,
+  "image": "https://img-global.cpcdn.com/recipes/ec7f521d4afd87e3/1360x964cq70/mie-ayam-jamur-pangsit-rebus-foto-resep-utama.webp",
+  "likes": 0,
+  "createdBy": {
+    "$oid": "67149b1ef4d3f27fdace4d64"
+  },
+  "comments": [],
+  "createdAt": {
+    "$date": "2024-11-02T12:22:47.636Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67261aa4725aff8cfb88b665"
+  },
+  "title": "Nasi goreng seafood resto",
+  "description": "Betul betul betul 👍👍. Mantaap resepnya Mbak. Terimakasih. Semoga segera surut air di rumah nya ya Mbak. Source : @Nia_130790",
+  "ingredients": [
+    "1 piring penuh Nasi (sy lebih)",
+    "15 ekor udang kecil (sy skip)",
+    "3 buah baso ikan (sy ganti sosis)",
+    "5 buah bakso sapi (sy pakai bakso seafood)",
+    "50 gr Ayam fillet",
+    "1 sdm bumbu putih (bamer, baput, kemiri)",
+    "1 sdm kecap ikan",
+    "1 sdm kecap asin",
+    "1 sdm kecap manis",
+    "Secukupnya merica, kaldu ayam",
+    "1 btg daun bawang",
+    "2 buah cabe merah (me kriting)"
+  ],
+  "instructions": [
+    {
+      "step": "Potong dadu ayam, bakso dan cuci bersih udang(me di marinasi dulu dengan merica dan garam) iris serong daun bawang dan cabe",
+      "time": 10,
+      "_id": {
+        "$oid": "67261aa4725aff8cfb88b666"
+      }
+    },
+    {
+      "step": "Goreng ayam dengan sedikit minyak, stelah berubah warna masukan bakso ikan, dan bakso sapi. Angkat, kemudian goreng udang sbntar. Angkat sisihkan",
+      "time": 10,
+      "_id": {
+        "$oid": "67261aa4725aff8cfb88b667"
+      }
+    },
+    {
+      "step": "Panaskan sdkit minyak, masukan telor dan orak arik,tambahkan bumbu putih, masukan kecap ikan (dimasukan lebih awal biar wanginya lebih keluar) masak sampai harum. Tambahkan nasi, aduk rata, masukan kecap asin, kecap manis, merica, dan kaldu ayam (me tidak diberi tambahan garam krna sudh cukup asin)",
+      "time": 10,
+      "_id": {
+        "$oid": "67261aa4725aff8cfb88b668"
+      }
+    },
+    {
+      "step": "Masukan toping yg sudh di goreng terlebih dahulu, tambahkan cabe dan daun bawang (sy masukkan dilangkah ke 3). Aduk rata masak kurang lebih 2 menit, matikan api. Dan sajikan. Note: memasak nasi goreng dengan api besar ya mom, agar aroma nya lebih keluar.",
+      "_id": {
+        "$oid": "67261aa4725aff8cfb88b669"
+      }
+    }
+  ],
+  "timeToCreate": 35,
+  "difficulty": 1,
+  "servings": 2,
+  "image": "https://img-global.cpcdn.com/recipes/dc0ab55356f717e5/1360x964cq70/nasi-goreng-seafood-tips-agar-rasa-sama-seperti-nasgor-resto-foto-resep-utama.webp",
+  "likes": 0,
+  "createdBy": {
+    "$oid": "67149b1ef4d3f27fdace4d64"
+  },
+  "comments": [],
+  "createdAt": {
+    "$date": "2024-11-02T12:27:16.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67261d44725aff8cfb88b66e"
+  },
+  "title": "Pakcoy Bawang Putih",
+  "description": "",
+  "ingredients": [
+    "2 ikat pokcoy",
+    "4 siung bawang putih",
+    "2 sdm saus tiram",
+    "1 sdt kecap asin",
+    "secukupnya air",
+    "secukupnya lada bubuk"
+  ],
+  "instructions": [
+    {
+      "step": "Cuci pakcoy",
+      "time": 2,
+      "_id": {
+        "$oid": "67261d44725aff8cfb88b66f"
+      }
+    },
+    {
+      "step": "Potong ujung pangkal pokcoy, lalu rebus",
+      "time": 3,
+      "_id": {
+        "$oid": "67261d44725aff8cfb88b670"
+      }
+    },
+    {
+      "step": "Siapkan bawang gorengnya, geprak bawang putih lalu cincang kasar, lalu goreng",
+      "time": 5,
+      "_id": {
+        "$oid": "67261d44725aff8cfb88b671"
+      }
+    },
+    {
+      "step": "Campurkan seluruh bahan siram lalu masak hingga mendidih",
+      "time": 5,
+      "_id": {
+        "$oid": "67261d44725aff8cfb88b672"
+      }
+    },
+    {
+      "step": "Campurkan air siraman, pokcoy rebus, dan bawang goreng, lalu siap disajikan",
+      "_id": {
+        "$oid": "67261d44725aff8cfb88b673"
+      }
+    }
+  ],
+  "timeToCreate": 20,
+  "difficulty": 1,
+  "servings": 3,
+  "image": "https://img-global.cpcdn.com/recipes/91541fd8d6c42acc/1360x964cq70/pokcoy-bawang-putih-foto-resep-utama.webp",
+  "likes": 0,
+  "createdBy": {
+    "$oid": "67152094737990b019949331"
+  },
+  "comments": [],
+  "createdAt": {
+    "$date": "2024-11-02T12:38:28.658Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67261ee0725aff8cfb88b677"
+  },
+  "title": "Bibimbap",
+  "description": "Secara harafiah, arti bibimbap sendiri adalah nasi campur. Biasnya disajikan dengan tumisan daging, sayuran dan saus gochujang. Gochujang berwarna merah karena bahan dasarnya adalah cabai merah, yang merupakan serpihan cabai kering yang disebut gochugaru. Di sini saya sajikan bibimbap dengan tahu, sayuran , telur dan saus gochujang tentunya, enak bernutrisi dan bikin kenyang 😀. Saya tambahkan tumisan kates ebinya mbak @Meyscila_28 , sbg salah satu sayuran pelengkapnya, makasih ya mbak, enak gurih ini❤. Yukk share juga kreasimu @arnimunawati83 @marthanaibaho11 dan lakukan SADARI secara rutin yaa..",
+  "ingredients": [
+    "1 porsi nasi putih",
+    "2 sdm saos gochujang",
+    "1 butir telur",
+    "150 gram tahu",
+    "150 gram pepaya mengkal, parut",
+    "1/2 sdm ebi, rendam sampai lembut",
+    "2 siung bawang putih",
+    "1/2 sdt garam",
+    "1/4 sdt gula pasir",
+    "30 gram bayam merah yang sudah dipetiki daunnya",
+    "50 gram wortel, parut",
+    "50 gram tauge",
+    "Minyak utk menumis",
+    "1/4 sdt wijen sangrai"
+  ],
+  "instructions": [
+    {
+      "step": "Potong dadu, tahu, dan goreng asal berkulit.",
+      "time": 5,
+      "_id": {
+        "$oid": "67261ee0725aff8cfb88b678"
+      }
+    },
+    {
+      "step": "Buat telur mata sapi. Tumis bawang putih sampai wangi, masak pepaya dan ebi, tumis sampai matang, bubuhi garam dan gula, aduk rata, sisihkan.",
+      "time": 10,
+      "_id": {
+        "$oid": "67261ee0725aff8cfb88b679"
+      }
+    },
+    {
+      "step": "Tumis sebentar tauge asal layu, bubuhi garam. Lakukan hal serupa pada wortel dan bayam merah.",
+      "time": 15,
+      "_id": {
+        "$oid": "67261ee0725aff8cfb88b67a"
+      }
+    },
+    {
+      "step": "Campurkan seluruh bahan siram lalu masak hingga mendidih",
+      "time": 5,
+      "_id": {
+        "$oid": "67261ee0725aff8cfb88b67b"
+      }
+    },
+    {
+      "step": "Tata nasi, sayur-sayuran dan telur pada pring saji, tambahkan saus gochujang,taburi dengan wijen sangrai. sajikan.",
+      "_id": {
+        "$oid": "67261ee0725aff8cfb88b67c"
+      }
+    }
+  ],
+  "timeToCreate": 40,
+  "difficulty": 2,
+  "servings": 1,
+  "image": "https://img-global.cpcdn.com/recipes/29c3ea55d8630e97/1360x964cq70/bibimbap-dg-bayam-merah-foto-resep-utama.webp",
+  "likes": 0,
+  "createdBy": {
+    "$oid": "67152094737990b019949331"
+  },
+  "comments": [],
+  "createdAt": {
+    "$date": "2024-11-02T12:45:20.584Z"
+  },
+  "__v": 0
+}]
