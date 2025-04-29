@@ -1,61 +1,24 @@
 const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
-const passport = require('passport');
-const multer = require('multer');
-const path = require('path');
+require('dotenv').config();
 
-const connectDB = require('./config/dbConn');
-require('./config/passport');
-
-const userRouter = require('./routes/userRoutes');
-const recipesRouter = require('./routes/recipeRoutes');
-const socialRouter = require('./routes/socialRoutes');
-
-
-connectDB();
+const muridRoutes = require('./routes/murid');
+const mataPelajaranRoutes = require('./routes/mata_pelajaran');
+const projectRoutes = require('./routes/project');
+const chapterRoutes = require('./routes/chapter');
+const aspekRoutes = require('./routes/aspek');
+const subaspekRoutes = require('./routes/sub_aspek');
 
 const app = express();
-const PORT = 8080;
-
-const API_URL = '/api';
-
-corsOptions = {
-    origin: ['http://localhost:5173'],
-};
-
-// Middleware
-app.use(cors(corsOptions)); 
 app.use(express.json());
-app.use(passport.initialize());
 
-// Routes
-app.get('/api', (req, res) => {
-    res.send('Welcome to the Recipe Sharing Platform API!');
-});
+app.use('/murid', muridRoutes);
+app.use('/mataPelajaran', mataPelajaranRoutes);
+app.use('/project', projectRoutes);
+app.use('/chapter', chapterRoutes);
+app.use('/aspek', aspekRoutes);
+app.use('/sub_aspek', subaspekRoutes);
 
-app.use(`${API_URL}/user`, userRouter);         // User Management
-app.use(`${API_URL}/recipes`, recipesRouter);   // Recipe Management
-app.use(`${API_URL}/social`, socialRouter);//Interaction and Social Features
-
-// Multer configuration
-const storage = multer.diskStorage({
-    destination: './uploads/',
-    filename: (req, file, cb) => {
-        cb(null, `${Date.now()}_${file.originalname}`);
-    }
-});
-const upload = multer({ storage: storage });
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-
-app.post('/upload', upload.single('image'), (req, res) => {
-    res.status(200).json({ url: `http://localhost:${PORT}/uploads/${req.file.filename}` });
-});
-
-// Start the server
-mongoose.connection.once('open', () => {
-    console.log('Connected to MongoDB');
-    app.listen(PORT, () => {
-        console.log(`Server is running on port ${PORT}`);
-    });
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
