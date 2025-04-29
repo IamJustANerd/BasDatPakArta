@@ -1,11 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const ctrl = require('../controllers/projectController');
+const controller = require('../controllers/projectController');
 
-router.get('/', ctrl.getAll);
-router.get('/:id', ctrl.getById);
-router.post('/', ctrl.create);
-router.put('/:id', ctrl.update);
-router.delete('/:id', ctrl.remove);
+router.get('/by-murid-pelajaran', controller.getByMuridAndPelajaran);
+
+router.get('/', controller.getAll);
+router.get('/:id', controller.getById);
+router.post('/', controller.create);
+router.put('/:id', controller.update);
+router.delete('/:id', controller.remove);
+router.get('/by-mataPelajaran/:id', controller.getByMataPelajaranId);
+router.get('/:id/detail', controller.getProjectDetail);
+
 
 module.exports = router;

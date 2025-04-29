@@ -4,7 +4,7 @@ const muridController = require('../controllers/muridController');
 
 router.get('/', muridController.getAll);
 router.get('/:id', muridController.getById);
-router.post('/', muridController.create);
+router.post('/', muridController.create); // 🔧 gunakan controller yang sudah ada
 router.put('/:id', muridController.update);
 router.delete('/:id', muridController.remove);
 

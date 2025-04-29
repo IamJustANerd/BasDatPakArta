@@ -1,4 +1,4 @@
-const pool = require('../db');
+const pool = require("../db/index");
 
 exports.getAll = async (req, res) => {
   try {
@@ -10,8 +10,8 @@ exports.getAll = async (req, res) => {
 };
 
 exports.getById = async (req, res) => {
+  const { id } = req.params;
   try {
-    const { id } = req.params;
     const result = await pool.query('SELECT * FROM chapter WHERE id = $1', [id]);
     if (result.rows.length === 0) return res.status(404).send("Not found");
     res.json(result.rows[0]);
@@ -21,11 +21,11 @@ exports.getById = async (req, res) => {
 };
 
 exports.create = async (req, res) => {
+  const { project_id, total_kesalahan_aspek, bobot_chapter, predikat_chapter } = req.body;
   try {
-    const { total_kesalahan, bobot_chapter, predikat_chapter } = req.body;
     const result = await pool.query(
-      'INSERT INTO chapter (total_kesalahan, bobot_chapter, predikat_chapter) VALUES ($1, $2, $3) RETURNING *',
-      [total_kesalahan, bobot_chapter, predikat_chapter]
+      'INSERT INTO chapter (project_id, total_kesalahan_aspek, bobot_chapter, predikat_chapter) VALUES ($1, $2, $3, $4) RETURNING *',
+      [project_id, total_kesalahan_aspek, bobot_chapter, predikat_chapter]
     );
     res.status(201).json(result.rows[0]);
   } catch (err) {
@@ -34,12 +34,12 @@ exports.create = async (req, res) => {
 };
 
 exports.update = async (req, res) => {
+  const { id } = req.params;
+  const { project_id, total_kesalahan_aspek, bobot_chapter, predikat_chapter } = req.body;
   try {
-    const { id } = req.params;
-    const { total_kesalahan, bobot_chapter, predikat_chapter } = req.body;
     const result = await pool.query(
-      'UPDATE chapter SET total_kesalahan = $1, bobot_chapter = $2, predikat_chapter = $3 WHERE id = $4 RETURNING *',
-      [total_kesalahan, bobot_chapter, predikat_chapter, id]
+      'UPDATE chapter SET project_id = $1, total_kesalahan_aspek = $2, bobot_chapter = $3, predikat_chapter = $4 WHERE id = $5 RETURNING *',
+      [project_id, total_kesalahan_aspek, bobot_chapter, predikat_chapter, id]
     );
     if (result.rows.length === 0) return res.status(404).send("Not found");
     res.json(result.rows[0]);
@@ -49,8 +49,8 @@ exports.update = async (req, res) => {
 };
 
 exports.remove = async (req, res) => {
+  const { id } = req.params;
   try {
-    const { id } = req.params;
     const result = await pool.query('DELETE FROM chapter WHERE id = $1 RETURNING *', [id]);
     if (result.rows.length === 0) return res.status(404).send("Not found");
     res.json({ message: "Deleted successfully" });

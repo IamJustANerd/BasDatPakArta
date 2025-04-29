@@ -1,11 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const ctrl = require('../controllers/mataPelajaranController');
+const controller = require('../controllers/mataPelajaranController');
 
-router.get('/', ctrl.getAll);
-router.get('/:id', ctrl.getById);
-router.post('/', ctrl.create);
-router.put('/:id', ctrl.update);
-router.delete('/:id', ctrl.remove);
+router.get('/', controller.getAll);
+router.get('/:id', controller.getById);
+router.post('/', controller.create);
+router.put('/:id', controller.update);
+router.delete('/:id', controller.remove);
+router.put('/:id/nilai', controller.addNilaiEntry);
 
 module.exports = router;
