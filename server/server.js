@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 require('dotenv').config();
 
 const muridRoutes = require('./routes/murid');
@@ -10,13 +11,14 @@ const subaspekRoutes = require('./routes/sub_aspek');
 
 const app = express();
 app.use(express.json());
+app.use(cors({ origin: 'http://localhost:5173' }));
 
-app.use('/murid', muridRoutes);
-app.use('/mataPelajaran', mataPelajaranRoutes);
-app.use('/project', projectRoutes);
-app.use('/chapter', chapterRoutes);
-app.use('/aspek', aspekRoutes);
-app.use('/sub_aspek', subaspekRoutes);
+app.use('/api/murid', muridRoutes);
+app.use('/api/mataPelajaran', mataPelajaranRoutes);
+app.use('/api/project', projectRoutes);
+app.use('/api/chapter', chapterRoutes);
+app.use('/api/aspek', aspekRoutes);
+app.use('/api/sub_aspek', subaspekRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

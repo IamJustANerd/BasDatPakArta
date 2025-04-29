@@ -22,10 +22,10 @@ exports.getById = async (req, res) => {
 
 exports.create = async (req, res) => {
   try {
-    const { nama, nilai_ets, nilai_eas, nilai_tugas } = req.body;
+    const {murid_id, nama, nilai_ets, nilai_eas, nilai_tugas } = req.body;
     const result = await pool.query(
-      'INSERT INTO mata_pelajaran (nama, nilai_ets, nilai_eas, nilai_tugas) VALUES ($1, $2, $3, $4) RETURNING *',
-      [nama, nilai_ets, nilai_eas, nilai_tugas]
+      'INSERT INTO mata_pelajaran (murid_id, nama, nilai_ets, nilai_eas, nilai_tugas) VALUES ($1, $2, $3, $4, $5) RETURNING *',
+      [murid_id, nama, nilai_ets, nilai_eas, nilai_tugas]
     );
     res.status(201).json(result.rows[0]);
   } catch (err) {
@@ -36,10 +36,10 @@ exports.create = async (req, res) => {
 exports.update = async (req, res) => {
   try {
     const { id } = req.params;
-    const { nama, nilai_ets, nilai_eas, nilai_tugas } = req.body;
+    const {murid_id, nama, nilai_ets, nilai_eas, nilai_tugas } = req.body;
     const result = await pool.query(
-      'UPDATE mata_pelajaran SET nama = $1, nilai_ets = $2, nilai_eas = $3, nilai_tugas = $4 WHERE id = $5 RETURNING *',
-      [nama, nilai_ets, nilai_eas, nilai_tugas, id]
+      'UPDATE mata_pelajaran SET murid_id = $1, nama = $2, nilai_ets = $3, nilai_eas = $4, nilai_tugas = $5 WHERE id = $6 RETURNING *',
+      [murid_id, nama, nilai_ets, nilai_eas, nilai_tugas, id]
     );
     if (result.rows.length === 0) return res.status(404).send("Not found");
     res.json(result.rows[0]);

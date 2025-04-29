@@ -22,10 +22,10 @@ exports.getById = async (req, res) => {
 
 exports.create = async (req, res) => {
   try {
-    const { nama, predikat, catatan_penguji, status } = req.body;
+    const {mata_pelajaran_id, nama, predikat, catatan_penguji, status } = req.body;
     const result = await pool.query(
-      'INSERT INTO project (nama, predikat, catatan_penguji, status) VALUES ($1, $2, $3, $4) RETURNING *',
-      [nama, predikat, catatan_penguji, status]
+      'INSERT INTO project (mata_pelajaran_id, nama, predikat, catatan_penguji, status) VALUES ($1, $2, $3, $4, $5) RETURNING *',
+      [mata_pelajaran_id, nama, predikat, catatan_penguji, status]
     );
     res.status(201).json(result.rows[0]);
   } catch (err) {
@@ -36,10 +36,10 @@ exports.create = async (req, res) => {
 exports.update = async (req, res) => {
   try {
     const { id } = req.params;
-    const { nama, predikat, catatan_penguji, status } = req.body;
+    const {mata_pelajaran_id, nama, predikat, catatan_penguji, status } = req.body;
     const result = await pool.query(
-      'UPDATE project SET nama = $1, predikat = $2, predikat = $3, status = $4 WHERE id = $5 RETURNING *',
-      [ama, predikat, catatan_penguji, status, id]
+      'UPDATE project SET mata_pelajaran_id = $1, nama = $2, predikat = $3, catatan_penguji = $4, status = $5 WHERE id = $6 RETURNING *',
+      [mata_pelajaran_id, nama, predikat, catatan_penguji, status, id]
     );
     if (result.rows.length === 0) return res.status(404).send("Not found");
     res.json(result.rows[0]);
@@ -54,6 +54,24 @@ exports.remove = async (req, res) => {
     const result = await pool.query('DELETE FROM project WHERE id = $1 RETURNING *', [id]);
     if (result.rows.length === 0) return res.status(404).send("Not found");
     res.json({ message: "Deleted successfully" });
+  } catch (err) {
+    res.status(500).send(err.message);
+  }
+};
+
+exports.nilai_final = async (req, res) => {
+  try {
+    const { projectId } = req.params;
+
+    const result = await pool.query(
+      `SELECT 
+         SUM(bobot_chapter * total_nilai)::FLOAT / NULLIF(SUM(bobot_chapter), 0) AS nilai_final
+       FROM chapter
+       WHERE project_id = $1`,
+      [projectId]
+    );
+
+    res.json({ project_id: projectId, nilai_final: result.rows[0].nilai_final || 0 });
   } catch (err) {
     res.status(500).send(err.message);
   }

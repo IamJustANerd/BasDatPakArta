@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const ctrl = require('../controllers/projectController');
 
+router.put('/:projectId/total-nilai-finalisasi', ctrl.nilai_final);
+
 router.get('/', ctrl.getAll);
 router.get('/:id', ctrl.getById);
 router.post('/', ctrl.create);
